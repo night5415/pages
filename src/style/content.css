@@ -1,0 +1,25 @@
+.content {
+  background-color: gray;
+  height: 100vh;
+  max-width: 75vw;
+  margin: 0 auto;
+  transition: max-width 200ms;
+}
+
+@media screen and (max-width: 960px) {
+  .content {
+    max-width: 100vw;
+  }
+}
+
+#page_home {
+  background-color: lightcoral;
+}
+
+#page_contact {
+  background-color: lightgreen;
+}
+
+#page_map {
+  background-color: lightblue;
+}

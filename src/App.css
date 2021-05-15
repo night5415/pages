@@ -9,6 +9,10 @@ body {
   width: 50vw;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .fullscreen-bg {
   position: fixed;
   top: 0;

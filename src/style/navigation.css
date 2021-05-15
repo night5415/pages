@@ -1,0 +1,10 @@
+.nav {
+  display: flex;
+  padding: 1rem;
+  box-shadow: 0 0 1rem black;
+}
+
+.nav > div {
+  flex-grow: 1;
+  text-transform: uppercase;
+}
