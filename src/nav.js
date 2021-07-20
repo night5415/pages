@@ -1,10 +1,12 @@
 import "./style/navigation.css";
+import { NavLink } from "react-router-dom";
+
 export default function Nav() {
   return (
-    <div className="nav">
-      <div>Home</div>
-      <div>Map</div>
-      <div>Contact</div>
-    </div>
+    <nav className="nav">
+      <NavLink to="/">Home</NavLink>
+      <NavLink to="/map">Map</NavLink>
+      <NavLink to="/contact">Contact</NavLink>
+    </nav>
   );
 }

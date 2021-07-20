@@ -2,9 +2,17 @@ html,
 body {
   margin: 0;
   padding: 0;
+  background-attachment: fixed;
+  font-family: "Roboto", sans-serif;
+}
+nav {
   text-align: center;
 }
-
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
 .under_construction {
   width: 50vw;
 }
@@ -35,12 +43,12 @@ body {
 }
 
 .video-shade {
-  position: fixed;
+  /* position: fixed;
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.6);
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAIElEQVQoU2NkIBIwQtX9R1KPVYx2Cgm6FGY10QoHs2cAxGAMC8CKf6sAAAAASUVORK5CYII=);
   opacity: 0.1;
-  z-index: 1;
-  transition: all 0.2s;
+  z-index: -99;
+  transition: all 0.2s; */
 }
