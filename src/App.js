@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+//import { useEffect } from "react";
 import "./App.css";
 import Content from "./Content";
 import { BrowserRouter as Router } from "react-router-dom";
@@ -20,6 +20,7 @@ function App() {
       <div className="fullscreen-bg">
         <video id="myVideo" loop muted autoPlay src="/video/lake.mp4"></video>
       </div>
+
       <Router>
         <Content />
       </Router>
