@@ -1,4 +1,3 @@
-//import { useEffect } from "react";
 import "./App.css";
 import Content from "./Content";
 import { BrowserRouter as Router } from "react-router-dom";
@@ -10,10 +9,6 @@ import { BrowserRouter as Router } from "react-router-dom";
 // const supabase = createClient(supabaseUrl, supabaseKey);
 
 function App() {
-  //   useEffect(() => {
-  //     console.log("ready s", process.env.REACT_APP_SUPABASE_KEY);
-  //   }, []);
-
   return (
     <div className="App">
       <div className="video-shade"></div>
